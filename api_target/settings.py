@@ -63,7 +63,7 @@ MIDDLEWARE = [
 # 追加
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
-    "https://target-share-app-frontend.vercel.app/"
+    "https://target-share-app-frontend.vercel.app"
 ]
 # ////
 
