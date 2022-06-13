@@ -112,7 +112,7 @@ SIMPLE_JWT = {
 #         'NAME': str(BASE_DIR + 'db.sqlite3'),
 #     }
 # }
-default_dburl = 'sqlite:///' + str(BASE_DIR / "db.sqlite3")
+default_dburl = 'sqlite:///' + str(BASE_DIR + "db.sqlite3")
 
 DATABASES = {
     'default': config('DATABASE_URL', default=default_dburl, cast=dburl),
@@ -157,7 +157,7 @@ AUTH_USER_MODEL = 'api.User'
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = str(BASE_DIR / 'staticfiles')
+STATIC_ROOT = str(BASE_DIR + 'staticfiles')
 
 # 追加
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
