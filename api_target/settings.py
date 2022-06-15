@@ -27,8 +27,8 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG')
 
+ALLOWED_HOSTS = ['*']
 # ALLOWED_HOSTS = ['target-new-app.herokuapp.com']
-ALLOWED_HOSTS = ['target-new-app.herokuapp.com']
 
 
 # Application definition
@@ -162,5 +162,5 @@ STATIC_ROOT = str(BASE_DIR + 'staticfiles')
 
 # 追加
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-MEDIA_URL = '/media/'
+MEDIA_URL = '/media/avators/'
 # ////
