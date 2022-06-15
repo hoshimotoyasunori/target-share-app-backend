@@ -162,5 +162,5 @@ STATIC_ROOT = str(BASE_DIR + 'staticfiles')
 
 # 追加
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-MEDIA_URL = '/media/avators/'
+MEDIA_URL = '/media/'
 # ////
